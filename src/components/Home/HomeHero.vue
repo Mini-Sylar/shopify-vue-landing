@@ -40,7 +40,7 @@
           >
             <UButton label="Clone Template" type="outline" style="position: relative; z-index: -1">
               <template #icon>
-                <PhGithubLogo />
+                <PhGithubLogo :color="'#fff'" />
               </template>
             </UButton>
           </a>

@@ -28,7 +28,9 @@ import {
   PhBridge,
   PhWebhooksLogo,
   PhDatabase,
-  PhCloudArrowUp
+  PhCloudArrowUp,
+  PhTranslate,
+  PhGraph
 } from '@phosphor-icons/vue'
 import { ref, type ComponentPublicInstance } from 'vue'
 
@@ -54,22 +56,32 @@ const cardData = [
   {
     icon: PhBridge,
     header: 'App Bridge',
-    body: 'Interact with Shopify Components from your Vue app using Shopify App Bridge.'
+    body: 'Interact with Shopify Admin from your Vue app using Shopify App Bridge.'
+  },
+  {
+    icon:PhGraph,
+    header: 'GraphQL',
+    body: 'Powerful Queries using GraphQL backed with GraphiQL for testing.'
   },
   {
     icon: PhWebhooksLogo,
     header: 'Custom Hooks',
-    body: 'Make authenticated requests to Shopify Admin API using vueAuthenticatedFetch.'
+    body: 'Make authenticated requests to Shopify Admin API using useAuthenticatedFetch.'
   },
   {
     icon: PhDatabase,
     header: 'Database',
-    body: 'Various available database options including MySQL, Postgres, and more!'
+    body: 'Various available database options including MySQL, Postgres, SQLite and more!'
   },
   {
     icon: PhCloudArrowUp,
     header: 'Docker',
     body: 'Docker ready! deploy your app on any platform with ease'
+  },
+  {
+    icon: PhTranslate,
+    header: 'i18n',
+    body: 'Support for app localization with Vue I18n. Translate your app to any language!'
   }
 ]
 </script>
