@@ -1,11 +1,9 @@
 <template>
   <TheNav></TheNav>
   <main>
-    <RouterView v-slot="{ Component }">
-      <transition name="fade" mode="out-in">
-        <component :is="Component"></component>
-      </transition>
-    </RouterView>
+    <transition name="fade" mode="out-in" appear>
+      <HomeView />
+    </transition>
   </main>
   <TheFooter></TheFooter>
 </template>
@@ -13,6 +11,7 @@
 <script setup lang="ts">
 import TheNav from '@/components/Nav/TheNav.vue'
 import TheFooter from './components/Footer/TheFooter.vue'
+import HomeView from './views/HomeView.vue'
 </script>
 
 <style>
