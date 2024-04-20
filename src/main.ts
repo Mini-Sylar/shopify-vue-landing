@@ -7,7 +7,7 @@ import { MotionPlugin } from '@vueuse/motion'
 //@ts-ignore
 import { GesturePlugin } from '@vueuse/gesture'
 
-export const app = ViteSSG(App, ({ app }) => {
+export const createApp = ViteSSG(App, ({ app }) => {
   app.use(MotionPlugin)
   app.use(GesturePlugin)
 })
