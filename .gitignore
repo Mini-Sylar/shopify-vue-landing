@@ -30,3 +30,4 @@ coverage
 *.tsbuildinfo
 cssconfig.json
 src/components.d.ts
+.vite-ssg-temp/
