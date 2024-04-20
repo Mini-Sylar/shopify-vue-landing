@@ -1,6 +1,7 @@
 import './assets/main.css'
 
 import { createApp } from 'vue'
+import { ViteSSG } from 'vite-ssg'
 import App from './App.vue'
 import router from './router'
 import { MotionPlugin } from '@vueuse/motion'
