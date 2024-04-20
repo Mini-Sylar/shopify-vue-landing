@@ -1,9 +1,7 @@
 <template>
   <TheNav></TheNav>
   <main>
-    <transition name="fade" mode="out-in" appear>
-      <HomeView />
-    </transition>
+    <HomeView />
   </main>
   <TheFooter></TheFooter>
 </template>
@@ -25,7 +23,7 @@ useHead({
       name: 'keywords',
       content:
         'Shopify, VueJS, Shopify Apps, VueJS Shopify Apps, Shopify VueJS, Shopify VueJS Apps, Shopify VueJS App, Shopify App, VueJS App'
-    },
+    }
   ]
 })
 </script>
