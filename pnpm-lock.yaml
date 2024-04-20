@@ -72,6 +72,9 @@ importers:
       vite-ssg:
         specifier: ^0.23.6
         version: 0.23.6(vite@5.2.9(@types/node@18.19.31))(vue-router@4.3.1(vue@3.4.23(typescript@5.3.3)))(vue@3.4.23(typescript@5.3.3))
+      vite-ssg-sitemap:
+        specifier: ^0.6.1
+        version: 0.6.1
       vue-router:
         specifier: ^4.3.1
         version: 4.3.1(vue@3.4.23(typescript@5.3.3))
@@ -1826,6 +1829,9 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  vite-ssg-sitemap@0.6.1:
+    resolution: {integrity: sha512-SMVDf17kwexkN/oSSDYo4rOGvRwmWQeiFQ16Ilvxx9hfm9ojWEVQ1BBZG90cI/XhDiJJTCBtLvB4YpoHz91Glg==}
 
   vite-ssg@0.23.6:
     resolution: {integrity: sha512-wRMc492AjBYyXNaNMlxcNkOWidxdNRLFnKe2YT1fQd28AD4Ak1GvS6b7hQLMyekYHb7i9+7AvJH6ieGGKgZmTQ==}
@@ -3943,6 +3949,8 @@ snapshots:
       requires-port: 1.0.0
 
   util-deprecate@1.0.2: {}
+
+  vite-ssg-sitemap@0.6.1: {}
 
   vite-ssg@0.23.6(vite@5.2.9(@types/node@18.19.31))(vue-router@4.3.1(vue@3.4.23(typescript@5.3.3)))(vue@3.4.23(typescript@5.3.3)):
     dependencies:
