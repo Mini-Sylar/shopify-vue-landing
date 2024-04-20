@@ -30,9 +30,9 @@ export default defineConfig({
   },
   ssgOptions: {
     onFinished() {
-      generateSitemap(){
-        hostname:"https://shopify-vue-template.vercel.app/"
-      }
+      generateSitemap({
+        hostname: 'https://shopify-vue-template.vercel.app/'
+      })
     }
   }
 })
