@@ -69,7 +69,7 @@ const steps = [
     icon: PhNumberCircleOne,
     title: 'Clone The Repo',
     description: `Clone the repo from <a class="repo-link" href="https://github.com/Mini-Sylar/shopify-app-vue-template" target="_blank">here<a/> or use the command below`,
-    command: 'git clone https://github.com/Mini-Sylar/shopify-app-vue-template.git'
+    command: 'npx degit Mini-Sylar/shopify-app-vue-template your-app-name'
   },
   {
     icon: PhNumberCircleTwo,
@@ -81,7 +81,7 @@ const steps = [
     icon: PhNumberCircleThree,
     title: 'Start The Server',
     description: `On first run, you'll have to configure your app using the snippet below`,
-    command: 'npm run dev'
+    command: 'npm run dev:reset'
   }
 ]
 </script>

@@ -34,7 +34,7 @@ const copyCommand = () => {
     copied.value = false
   }, 3000)
 }
-const keyWords = ['npm', 'git']
+const keyWords = ['npm', 'git', 'npx','your-app-name']
 </script>
 
 <style scoped>
