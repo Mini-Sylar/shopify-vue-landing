@@ -41,9 +41,7 @@
     "vite-ssg": "^25.0.0",
     "vite-ssg-sitemap": "^0.8.1",
     "vue-router": "^4.5.0",
-    "vue-tsc": "^2.2.0"
-  },
-  "optionalDependencies": {
+    "vue-tsc": "^2.2.0",
     "@rollup/rollup-linux-x64-gnu": "^4.30.1"
   }
 }
